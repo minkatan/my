@@ -10,140 +10,171 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
 </head>
-<body class ="bg-neutral-100 text-neutral-800">
-  <!-- hero -->
-<section class="flex flex-col md:grid md:grid-flow-row bg-sky-900 text-slate-100 p-8 mx-20 my-5">
-    <div class="basis-3/4">
-    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="../image/cv.jpg" alt="" width="48" height="48">
-      <h2 class="text-5xl text-center  font-mono font-semibold">
-        MIN KA TAN
-      </h2>
+<body>
+<!-- Hero -->
+<section class="md:flex md:flex-col md:items-center md:mx-16 bg-sky-900 text-slate-100">
+    <div class="md:max-w-sm content-center">
+        <div class="pb-4">
+            <img class="hidden md:flex pb-4" src="../image/cv.jpg" alt="head">
+            <h2 class="text-3xl text-center">
+                MIN KA TAN
+            </h2>
+        </div>
     </div>
-      <div class="text-2xl mt-6 flex flex-row gap-4 justify-center basis-1/4">
-      <i data-feather="phone">PHONE</i>
-      <a href="+14168305822">416-830-5822</i></a> 
-      <i data-feather="send">EMAIL</i>
-      <a href="mailto: minka.tan@outlook.com">minka.tan@outlook.com</a>
-      <i data-feather="map-pin">LOCATION</i>
-      <a href="https://goo.gl/maps/Xit8DXnmstyLBrRQ9">Toronto,ON</a>
+    <div class="md:flex md:flex-row md:mb-12">
+        <div class="flex p-2"><i data-feather="phone"></i><a href="+14168305822">416-830-5822</a></div>
+        <div class="flex p-2"><i data-feather="send"></i><a href="mailto: minka.tan@outlook.com">minka.tan@outlook.com</a></div>
+        <div class="flex p-2"><i data-feather="map-pin"></i><a href="https://goo.gl/maps/Xit8DXnmstyLBrRQ9">Toronto,ON</a></div>
     </div>
-  </div>
 </section>
-  <!-- description -->
-<section class="-mt-8 flex flex-row">
-    <!-- about me, skills, references -->
-  <section class="basis-1/3 pt-6 md:p-8 text-center md:text-left space-y-4 bg-navy">
-      <div>
-      <h2 class="text-2xl font-semibold text-gray-200 py-4">About Me</h2>
-        <p class="text-base text-gray-200">
-        Great analytical ability with experience across multiple different functions in a global food company. Driven self-starter. Working on adding technology relevant hardskills.
+<!-- column left--->
+<section class="md:flex">
+    <div class="md:flex-col md:basis-1/3 md:bg-navy md:text-gray-200 md:flex-grow md:justify-self-stretch space-x-6 md:space-y-24">
+        <div class="bg-blue-200 text-gray-700 md:-mt-4 p-4 md:py-4">
+        <h2 class="text-2xl font-semibold">About Me</h2>
+        <p class="text-base mt-4">
+            Great analytical ability with experience across different functions. Driven self-starter. Currently adding technology hardskills into my resume.
         </p>
-      </div>
-      <div>
-        <h2 class="text-2xl font-semibold text-gray-200 py-4">Skills</h2>
-          <div class="grid grid-cols-2 gap-1">
-            <!-- skill -->
-            <p class="text-sm text-gray-200">Microsoft Office(Excel, PowerQuery, PowerPivot PowerPoint, Words)</p>
-            <div class="place-self-center w-full bg-gray-200 rounded-full">
-              <div class="bg-gray-500 h-3 rounded-full" style="width: 80%"></div>
+        </div>
+        <div class="md:flex-row py-4 md:justify-center">
+            <h2 class="text-2xl font-semibold ">Education</h2>
+            <p class="font-semibold">Univeristy of Portsmouth</p>
+            <time class="mb-1 text-sm font-normal leading-none"></time>Jun 2011
+            <p>BA(Hons) Accountancy and Financial Management</p>    
+            <p>2nd Class (Upper)</p>
+        </div>
+        <div class="py-4 space-y-2">
+            <h2 class="text-2xl font-semibold">Skills</h2>
+                <!-- skill -->
+                <p class="text-sm">Excel (PowerQuery, PowerPivot)</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width: 80%"></div>
+                </div>
+                    <!-- skill -->
+                <p class="text-sm">PowerPoint</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width: 70%"></div>
+                </div>
+                <!-- skill -->
+                <p class="text-sm">Forecasting & Budgetting</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:70%"></div>
+                </div>
+                <!-- skill -->
+                <p class="text-sm">Power BI</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:60%"></div>
+                </div>
+                <!-- skill -->
+                <p class="text-sm">SQL</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:60%"></div>
+                </div>
+                    <!-- skill -->
+                <p class="text-sm">SAP(MDG,BI)</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:50%"></div>
+                </div>
+                <!-- skill -->
+                <p class="text-sm">Project Management</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:40%"></div>
+                </div>
+                <!-- skill -->
+                <p class="text-sm">HTML, CSS</p>
+                <div class="place-self-center w-11/12 bg-gray-200 rounded-full">
+                    <div class="bg-gray-500 h-3 rounded-full" style="width:20%"></div>
+                </div>
+              </div>
+                <div>
+                      <h2 class="text-2xl font-semibold py-4">References</h2>
+                    <div class="pb-4">Aidan McMahon
+                      <p class="text-sm">Kerry Inc, Finance VP</p>
+                      <p class="text-sm">+1(608)-718-4284</p>
+                    </div>
+                      
+                    <div class="pb-4">Szu Tynn, Chew
+                      <p class="text-sm">Kerry Malaysia, Manager</p>
+                      <p class="text-sm">+60(12)-294-1882</p>
+                    </div>
+                </div>
+                </div>
             </div>
-            <!-- skill -->
-            <p class="text-sm text-gray-200">Power BI</p>
-            <div class="place-self-center w-full bg-gray-200 rounded-full">
-              <div class="bg-gray-500 h-3 rounded-full" style="width:60%"></div>
-            </div>
-        </div>
+    <div class="md:basis-2/3 ml-4">
+        <h2 class="text-2xl font-semibold text-gray-700">Work Experiences</h2>
+        <p class="font-semibold">Held different roles in <span class="text-sky-600 text-lg">Kerry Group</span></p>
+        <ol class="md:relative border-l md:border-gray-300">
+          <li class="mb-10 ml-4">
+            <div class="hidden md:block absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500">Nov 2018 - Aug 2021</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">PMO Manager</h3>
+            <p class="text-sm text-navy pt-2">↔ Oversee the development of the project and ensure team members are carrying out their tasks efficiently while upholding the company's standards.</p>
+            <p class="text-sm text-navy pt-2">↔ Planned project management, including setting deadlines, collaborating with functional leads on prioritizing tasks and assignments on various deliverables.</p>
+            <p class="text-sm text-navy pt-2">↔ Project's test lead, coordinated all testing activities including analyzing business & test requirements; scoping test scenarios & mapping them with test requirements. Kept all test results including UAT at 98%.</p>
+            <p class="text-sm text-navy pt-2">↔ Established multiple PMO’s metrics for status and metrics meetings; reviewed and prioritized project deliverables; assisted in resource allocation for up to 150 resources; project deliverables were 85% on time and within budget.</p>
+            <p class="text-sm text-navy pt-2">↔ Supervised pre-post-go-live activities as site support lead; ensured a smooth transition from 95% support in 2 weeks.</p>
+            <p class="text-sm text-navy pt-2">↔ Launched a web-based data application tool with 3 business analysts; provided technical & analytical support to businesses user on data submission; reduced project’s timeline by 6 weeks with automation and data validations primarily using SQL.</p>
+          </li>
+          <li class="mb-10 ml-4">
+            <div class="hidden md:block absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500">Apr 2016 - Jan 2018</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">Financial Planning & Analysis Lead</h3>
+            <p class="text-sm text-navy pt-2">↔ Streamlined regional sales forecasting process; made an improvement that reduced the workload of other accountants by 40%.</p>
+            <p class="text-sm text-navy pt-2">↔ Simultaneously derived & tracked key regional sales team metrics with a focus on increasing the organic sales volume for 11 countries; reduced reporting efforts of country’s finance team..</p>
+            <p class="text-sm text-navy pt-2">↔ Maintained accuracy of revenue & COGS data through monthly reconciliation; classified exceptions into the correct business unit and technology.</p>
+            <p class="text-sm text-navy pt-2">↔ Partnered with country’s finance directors and managers on regional annual price increased; analyzed market trends/commodity movement during the processes; recommended actions which led to year on year $8million profitable growth through strategic price increased.</p>
+            <p class="text-sm text-navy pt-2">↔ Created monthly commercial financial decks/dashboards to business unit and regional GMs; advised and provided analytical insight to the CFO and Finance Director on key regional above margin metrics.</p>
+            <p class="text-sm text-navy pt-2">↔ Maintained accuracy of revenue & COGS data across multiple systems through monthly reconciliation; upload up to 3000 lines of monthly adjustments with IT; managed and classified all exceptions into the correct business unit and technology.</p>
+          </li>
+          <li class="mb-10 ml-4">
+            <div class="hidden md:block absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500">Dec 2013 - Apr 2016</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">MDM Regional Lead</h3>
+            <p class="text-sm text-navy pt-2">↔ Managed a lean MDM team of 6 on both BAU and SAP (project) conversion activities; managed to keep the SLA up to 90% and never missed project data submission deadline.</p>
+            <p class="text-sm text-navy pt-2">↔ Collaborated with superusers on data defects resolution; aligned master data with superuser’s data templates; kept average data errors as low as 4%.</p>
+            <p class="text-sm text-navy pt-2">↔ Initiated process and procedure changes to continuously improve data quality; managed to keep data mostly aligned with the business requirement and governance; any exception was approved and resolved within 3 days.</p>
+          </li>
+          <li class="mb-10 ml-4">
+            <div class="hidden md:block absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500">Sep 2012 - Dec 2013</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">Accounts Executive</h3>
+            <p class="text-sm text-navy pt-2">↔ Maintained projection and budget for site up to $10million per year; analyzed monthly direct and indirect factory cost; summarized and highlighted exception or risk of running over budget to the factory managers.</p>
+            <p class="text-sm text-navy pt-2">↔ Enforced inventory management processes on-site; improved plant’s yearly inventory accuracy by 20%.</p>
+            <p class="text-sm text-navy pt-2">↔ Given opportunities to support and provide training at the newly acquired site after 9 months of strong performance in the role.</p>
+            <p class="text-sm text-navy pt-2">↔ Managed factory's full month-end cycle; reviewed and analyzed factory cost; post journal and accounting adjustments; supported and provided training at the newly acquired site after 9 months of strong performance on the team.</p>
+          </li>
+        </ol>
       </div>
-        <div>
-          <h2 class="text-2xl font-semibold text-gray-200 py-4">References</h2>
-          
-          <div class="text-gray-200 pb-4">Aidan McMahon
-          <p class="text-sm text-gray-200">Kerry Inc, Finance VP</p>
-          <p class="text-sm text-gray-200">+1(608)-718-4284</p>
-          </div>
-          
-          <div class="text-gray-200 pb-4">Szu Tynn, Chew
-          <p class="text-sm">Kerry Malaysia, Manager</p>
-          <p class="text-sm">+60(12)-294-1882</p>
-          </div>
-        
+</div>
+</section>
+
+<section class="bg-gray-200 h-40 flex-grow">
+    <div class="text-2xl font-semibold p-4 text-center">
+    <h2>Interests</h2>
+    </div>
+    <div class="flex flex-row justify-around p-4">
+        <div class="">
+            <img src="https://img.icons8.com/ios/24/000000/walking--v1.png"/>
+            <p>Walk & Hike</p>
         </div>
-  </section>
-  <!-- work experiences, education hobbies -->
-  <section class="basis-2/3 pt-6 md:p-8 text-center md:text-left space-y-4">
-    <h2 class="text-2xl font-semibold text-gray-700">Work Experiences</h2>
-      <p class="font-semibold">Held different roles in <span class="text-sky-600 text-lg">Kerry Group</span></p>
-      <ol class="relative border-l border-gray-300">
-        <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500">Nov 2018 - Aug 2021</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">PMO Manager</h3>
-          <p class="text-base font-normal text-navy pt-2">↔ Oversee the development of the project and ensure team members are carrying out their tasks efficiently while upholding the company's standards.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Planned project management, including setting deadlines, collaborating with functional leads on prioritizing tasks and assignments on various deliverables.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Project's test lead, coordinated all testing activities including analyzing business & test requirements; scoping test scenarios & mapping them with test requirements. Kept all test results including UAT at 98%.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Established multiple PMO’s metrics for status and metrics meetings; reviewed and prioritized project deliverables; assisted in resource allocation for up to 150 resources; project deliverables were 85% on time and within budget.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Supervised pre-post-go-live activities as site support lead; ensured a smooth transition from 95% support in 2 weeks.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Launched a web-based data application tool with 3 business analysts; provided technical & analytical support to businesses user on data submission; reduced project’s timeline by 6 weeks with automation and data validations primarily using SQL.</p>
-        </li>
-        <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500">Apr 2016 - Jan 2018</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">Financial Planning & Analysis Lead</h3>
-          <p class="text-base font-normal text-navy pt-2">↔ Streamlined regional sales forecasting process; made an improvement that reduced the workload of other accountants by 40%.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Simultaneously derived & tracked key regional sales team metrics with a focus on increasing the organic sales volume for 11 countries; reduced reporting efforts of country’s finance team..</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Maintained accuracy of revenue & COGS data through monthly reconciliation; classified exceptions into the correct business unit and technology.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Partnered with country’s finance directors and managers on regional annual price increased; analyzed market trends/commodity movement during the processes; recommended actions which led to year on year $8million profitable growth through strategic price increased.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Created monthly commercial financial decks/dashboards to business unit and regional GMs; advised and provided analytical insight to the CFO and Finance Director on key regional above margin metrics.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Maintained accuracy of revenue & COGS data across multiple systems through monthly reconciliation; upload up to 3000 lines of monthly adjustments with IT; managed and classified all exceptions into the correct business unit and technology.</p>
-        </li>
-        <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500">Dec 2013 - Apr 2016</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">MDM Regional Lead</h3>
-          <p class="text-base font-normal text-navy pt-2">↔ Managed a lean MDM team of 6 on both BAU and SAP (project) conversion activities; managed to keep the SLA up to 90% and never missed project data submission deadline.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Collaborated with superusers on data defects resolution; aligned master data with superuser’s data templates; kept average data errors as low as 4%.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Initiated process and procedure changes to continuously improve data quality; managed to keep data mostly aligned with the business requirement and governance; any exception was approved and resolved within 3 days.</p>
-        </li>
-        <li class="mb-10 ml-4">
-          <div class="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-white"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500">Nov 2018 - Aug 2021</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white pt-2">PMO Manager</h3>
-          <p class="text-base font-normal text-navy pt-2">↔ Maintained projection and budget for site up to $10million per year; analyzed monthly direct and indirect factory cost; summarized and highlighted exception or risk of running over budget to the factory managers.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Enforced inventory management processes on-site; improved plant’s yearly inventory accuracy by 20%.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Given opportunities to support and provide training at the newly acquired site after 9 months of strong performance in the role.</p>
-          <p class="text-base font-normal text-navy pt-2">↔ Managed factory's full month-end cycle; reviewed and analyzed factory cost; post journal and accounting adjustments; supported and provided training at the newly acquired site after 9 months of strong performance on the team.</p>
-        </li>
-      </ol>
-      <div>
-        <h2 class="text-2xl font-semibold text-gray-700">Education</h2>
-        <p class="font-semibold">Univeristy of Portsmouth</p>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500"></time>Jun 2011
-        <p>BA(Hons) Accountancy and Financial Management - 2nd Class (Upper) </p>
-        
-      </div>
-      <h2 class="text-2xl font-semibold text-gray-700">Interests</h2>
-      <div class="flex flex-auto gap-4">
-        <div class="m-4 px-4 items-center">
-          <img src="https://img.icons8.com/ios/64/000000/walking--v1.png"/>
-          <p>Walk & Hike</p>
+        <div class="">
+            <img src="https://img.icons8.com/ios/24/000000/museum.png"/>
+            <p>Museums & Arts</p>
         </div>
-        <div class="m-4 px-4 items-center">
-          <img src="https://img.icons8.com/ios/64/000000/museum.png"/>
-          <p>Museums & Arts</p>
+        <div class="">
+            <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/24/000000/external-workout-fitness-and-diet-xnimrodx-lineal-xnimrodx.png"/>
+            <p>Workout</p>
         </div>
-        <div class="m-4 px-4 items-center">
-          <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-workout-fitness-and-diet-xnimrodx-lineal-xnimrodx.png"/>
-          <p>Workout</p>
+            <div class="">
+            <img src="https://img.icons8.com/ios-glyphs/24/000000/code.png"/>
+            <p>Learn & Code</p>
         </div>
-        <div class="m-4 px-4 items-center">
-          <img src="https://img.icons8.com/ios-glyphs/64/000000/code.png"/>
-          <p>Learn & Code</p>
-        </div>
-      </div>
-    </section>
-  </section>
-    <script>
-      feather.replace()
-    </script>
+    </div>
+</section>
+
+<!-- <footer>Page is done using HTML & TailwindCSS</footer> -->
+<script>
+    feather.replace()
+</script>
 </body>
 </html>
