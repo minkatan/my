@@ -18,15 +18,31 @@
     <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <div class="text-2xl"><a href="/"></a>HaeMinJa</div>
         <div class="hidden md:flex space-x-12 items-center">
-            <a href="./html/cv.html" class="text-stone-300">Resume</a>
-            <a href="#work">My Portfolio</a>
-            <a href="./html/coffee.html">Coffee</a>
-            <a href="#">Games Built</a>
-            <a href="#hire"><button class="px-6 py-2 bg-blue-800 font-bold">Hire Me!</button></a>
-        </div>
-        <div class="md:hidden">
-            <!-- need to add icon for the dropdown -->
-        </div>
+            <button class="p-4 bg-blue-900  text-gray-200 hover:bg-blue-200 hover:text-black font-bold "><a href="#work" class="text-stone-300">Portfolio</a></button>
+            <a href="#experiences" class="text-stone-300">Working Experiences</a>
+            <a href="./html/cv.html"><button class="py-2 bg-blue-800 font-bold">CV</button></a>
+            <a href="#contact" class="text-stone-300">Connect!</a>
+        <div class="relative inline-block ">
+            <!-- Dropdown toggle button -->
+            <button class="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:text-white dark:bg-gray-800 focus:outline-none">
+                <span class="mx-1">Interest</span>
+                <svg class="w-5 h-5 mx-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z" fill="currentColor"></path>
+                </svg>
+            </button>
+
+            <!-- Dropdown menu -->
+            <div class="absolute right-0 z-20 w-56 py-2 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-800">
+                <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                    Coffee
+                </a>
+                <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                    Games I Built
+                </a>
+            </div>
+    </div>
+    
+    </div>
     </div>
 </header>
 
@@ -41,10 +57,10 @@
                 <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                 <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
                 </a>
-                <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                <a href="#experiences" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                     <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
                 </a>
-                <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                     <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
                 </a>
             </div>
@@ -53,14 +69,11 @@
         <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
             <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br>Beautiful Web Experiences</h1>
             <div class="w-full flex justify-center md:justify-start">
-                <button class="px-8 py-4 bg-blue-900  text-gray-200 hover:bg-blue-200 hover:text-black font-bold mt-12 flex items-center space-x-3 rounded">
-                    <span>View My Work.</span>
-                </button>
             </div>
         </div>
         <img src="image\home.png" alt="home" class="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1">
     </div>
-</section>>
+</section>
 
 <!-- my work -->
 <div class="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
