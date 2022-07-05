@@ -1,2 +1,2 @@
 # myself
-Personal Website. Building portfolio
+My Website for job hunting
